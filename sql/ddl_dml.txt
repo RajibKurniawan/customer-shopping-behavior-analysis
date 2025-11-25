@@ -1,0 +1,36 @@
+1. URL Dataset:
+https://www.kaggle.com/datasets/rehan497/customer-shopping-behavior-dataset
+
+
+2. Syntax DDL (Data Definition Language) :
+
+CREATE TABLE IF NOT EXISTS table_m3
+(
+    customer_id INTEGER,
+    age INTEGER,
+    gender varchar(10),
+    item_purchased VARCHAR(20),
+    category VARCHAR(20),
+    purchase_amount INTEGER,
+    "location" VARCHAR(30),
+    "size" VARCHAR(5),
+    color VARCHAR(15),
+    season VARCHAR(10),
+    review_rating FLOAT,
+    subsciption_status VARCHAR(5),
+    shipping_type VARCHAR(20),
+    discount_applied VARCHAR(5),
+    promo_code_used VARCHAR(5),
+    previous_purchases INTEGER,
+    payment_method VARCHAR(20),
+    frequency_of_purchases VARCHAR(20)
+)
+
+
+3. Syntax DML (Data Manipulation Language)
+'''
+COPY table_m3
+FROM '/opt/airflow/dags/P2M3_Rajib_Kurniawan_data_raw.csv'
+DELIMITER ','
+CSV HEADER;
+'''
