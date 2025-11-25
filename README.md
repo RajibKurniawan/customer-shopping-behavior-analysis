@@ -72,7 +72,8 @@ Size: ~3,900 rows × 18 columns
 
 - Kaggle - Customer Shopping Behavior Dataset (https://www.kaggle.com/datasets/rehan497/customer-shopping-behavior-dataset)
 
-- Statista (2024) - Online shopper demographics  
+- Statista (2024) - Online shopper demographics 
+(https://www.statista.com/topics/13741/online-shopping-behavior-worldwide/?srsltid=AfmBOoqE-iGj_2s7OWOibEBSkl-kEAyeSAwarErAeUSUQQidQ4JFVHlJ#topicOverview)
 
 - Apache Airflow, Great Expectations, ElasticSearch, Kibana  
 
